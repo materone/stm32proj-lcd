@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_MD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\HARDWARE\LED;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\STM32F10x_FWLib\inc;..\CORE;..\HARDWARE\KEY;..\HARDWARE\EXTI;..\HARDWARE\WDG;..\HARDWARE\TIMER;..\HARDWARE\PWM;..\HARDWARE\TFT</IncludePath>
+              <IncludePath>..\HARDWARE\LED;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\STM32F10x_FWLib\inc;..\CORE;..\HARDWARE\KEY;..\HARDWARE\EXTI;..\HARDWARE\WDG;..\HARDWARE\TIMER;..\HARDWARE\PWM;..\HARDWARE\TFT;..\HARDWARE\SPI_SD_Card;..\HARDWARE\FATFS_V0.09\src</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -437,6 +437,26 @@
               <FileName>TFT_Driver.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\TFT\TFT_Driver.c</FilePath>
+            </File>
+            <File>
+              <FileName>ff.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\FATFS_V0.09\src\ff.c</FilePath>
+            </File>
+            <File>
+              <FileName>diskio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\FATFS_V0.09\src\diskio.c</FilePath>
+            </File>
+            <File>
+              <FileName>ccsbcs.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\FATFS_V0.09\src\option\ccsbcs.c</FilePath>
+            </File>
+            <File>
+              <FileName>SPI_MSD0_Driver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\SPI_SD_Card\SPI_MSD0_Driver.c</FilePath>
             </File>
           </Files>
         </Group>
